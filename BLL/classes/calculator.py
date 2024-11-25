@@ -12,7 +12,7 @@ class Calculator:
         History.write(self.num1, self.num2, self.operator, self.result)
 
     @staticmethod
-    def calculate(num1, num2, operator):
+    def calculate(num1 : float, num2 : float, operator : str):
         match operator:
             case "+":
                 return num1 + num2

@@ -9,9 +9,9 @@ class History:
         with open("Sources/history.txt", "r") as file:
             history = file.read()
             if not history:
-                print("Your history is empty!")
+                print("\nYour history is empty!")
             else:
-                print("Your history:\n" + history)
+                print("\nYour history:\n" + history)
 
     @staticmethod
     def write(num1, num2, operator, result):
